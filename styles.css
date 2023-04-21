@@ -89,15 +89,16 @@ button {
     transition: 2s;
 
 }
-.logo:hover{
+
+.logo:hover {
     transform: translateY(-25px);
 
 }
- 
 
 
- 
-.circulooo{
+
+
+.circulooo {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -106,4 +107,76 @@ button {
     left: 0;
     clip-path: circle(600px at right 800px);
     z-index: -1;
+}
+
+@media screen and (max-width:1200px) {
+    header a {
+        display: none;
+    }
+
+    .logo {
+        width: 300px;
+        margin-right: 99px;
+
+    }
+
+    body {
+        width: 500px;
+    }
+
+    .caixa-texto {
+        font-size: 30px;
+        margin-left: 50%;
+
+
+    }
+
+    .caixa-texto button {
+        margin-top: 40px;
+        font-size: 40px;
+    }
+
+    .paragrafo {
+        margin-top: 70px;
+        margin-left: 50%;
+        font-size: 40px;
+
+    }
+
+    .caixa-imagem {
+        display: flex;
+        justify-content: center;
+        margin-right: 400px;
+        width: 400px;
+        margin-top: 50%;
+    }
+
+    .caixa-logo {
+        display: block;
+        margin-top: 50px;
+
+
+    }
+
+    .caixa-logo img {
+         
+         
+        width: 100px;
+        padding: 30px;
+        font-size: 400px
+      
+         
+    }
+   
+
+
+    .circulooo{
+        display: block;
+        margin-top: 1500px;
+        clip-path: circle(500px at center bottom);
+        margin-left: 50px;
+        width: 400px;
+    }
+
+     
 }
